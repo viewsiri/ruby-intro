@@ -8,4 +8,10 @@
 # end
 
 # Loop through tacos
-# tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+for zebra in tacos 
+
+    puts "Eat #{zebra} tacos!"
+
+end

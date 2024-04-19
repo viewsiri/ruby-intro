@@ -15,3 +15,29 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+#create brian's list in memory
+violets_list = ["milk", "eggs", "bacon"]
+
+# create ben's list in memory
+bens_list = ["beer", "cookies", "apples", "bacon"]
+
+# combine the two lists together and store it in memory
+combined_list = violets_list + bens_list
+
+# sort the list into a new list in memory
+sorted_list = combined_list.sort
+
+# remove non-unique items from the list
+unique_list = sorted_list.uniq 
+
+# do ALL THE THINGs at once
+#unique_list = (violets_list + bens_list).sort.uniq
+
+# write the list to the screen, prepending each item with "buy"
+puts "Buy #{unique_list[0]}"
+puts "Buy #{unique_list[1]}"
+puts "Buy #{unique_list[2]}"
+puts "Buy #{unique_list[3]}"
+puts "Buy #{unique_list[4]}"
+puts "Buy #{unique_list[5]}"
